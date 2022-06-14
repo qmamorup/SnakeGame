@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Components/SceneComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "SneakHead.generated.h"
 
 UCLASS()
@@ -14,6 +16,10 @@ class SNAKEGAME_API ASneakHead : public APawn
 public:
 	// Sets default values for this pawn's properties
 	ASneakHead();
+	UPROPERTY()
+		USceneComponent* RootComp;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* HeadMesh;
 
 protected:
 	// Called when the game starts or when spawned

@@ -8,7 +8,18 @@ ASneakHead::ASneakHead()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	RootComp = CreateAbstractDefaultSubobject<USceneComponent>("RootComp");
+	HeadMesh = CreateDefaultSubobject<UStaticMeshComponent>("HeadMesh");
+	SetRootComponent(RootComp);
+	HeadMesh->SetupAttachment(RootComp);
+	ConstructorHelpers::FObjectFinder<UStaticMesh> MeshForHeadMesh(TEXT("StaticMesh'/Engine/BasicShapes/Cube.Cube'"));
+	if(MeshForHeadMesh.Succeeded())
+	{
+		HeadMesh->SetStaticMesh(MeshForHeadMesh.Object);
+	}
+	HeadMesh->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	HeadMesh->SetCollisionObjectType(ECC_Pawn);
+	HeadMesh->SetCollisionResponseToAllChannels(ECR_Overlap);
 }
 
 // Called when the game starts or when spawned

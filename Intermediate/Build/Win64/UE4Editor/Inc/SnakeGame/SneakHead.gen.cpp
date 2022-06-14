@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeSneakHead() {}
 	SNAKEGAME_API UClass* Z_Construct_UClass_ASneakHead();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_SnakeGame();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ASneakHead::StaticRegisterNativesASneakHead()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeSneakHead() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RootComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RootComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HeadMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HeadMesh;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +56,25 @@ void EmptyLinkFunctionForGeneratedCodeSneakHead() {}
 		{ "ModuleRelativePath", "SneakHead.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASneakHead_Statics::NewProp_RootComp_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SneakHead.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASneakHead_Statics::NewProp_RootComp = { "RootComp", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASneakHead, RootComp), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASneakHead_Statics::NewProp_RootComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASneakHead_Statics::NewProp_RootComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASneakHead_Statics::NewProp_HeadMesh_MetaData[] = {
+		{ "Category", "SneakHead" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SneakHead.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASneakHead_Statics::NewProp_HeadMesh = { "HeadMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASneakHead, HeadMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASneakHead_Statics::NewProp_HeadMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASneakHead_Statics::NewProp_HeadMesh_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASneakHead_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASneakHead_Statics::NewProp_RootComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASneakHead_Statics::NewProp_HeadMesh,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASneakHead_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASneakHead>::IsAbstract,
 	};
@@ -54,11 +84,11 @@ void EmptyLinkFunctionForGeneratedCodeSneakHead() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ASneakHead_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ASneakHead_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ASneakHead_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ASneakHead_Statics::Class_MetaDataParams))
@@ -72,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeSneakHead() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASneakHead, 657371444);
+	IMPLEMENT_CLASS(ASneakHead, 3366383479);
 	template<> SNAKEGAME_API UClass* StaticClass<ASneakHead>()
 	{
 		return ASneakHead::StaticClass();
