@@ -1,0 +1,5 @@
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame/SneakHead.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SneakHead.generated.h

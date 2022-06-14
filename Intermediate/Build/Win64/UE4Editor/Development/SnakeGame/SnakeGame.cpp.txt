@@ -1,0 +1,2 @@
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\SnakeGame.h
