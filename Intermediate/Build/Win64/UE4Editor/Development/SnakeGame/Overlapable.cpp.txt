@@ -1,0 +1,5 @@
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\Overlapable.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Overlapable.generated.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\SneakHead.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SneakHead.generated.h

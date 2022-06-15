@@ -1,3 +1,9 @@
 C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Development\SnakeGame\Definitions.SnakeGame.h
 C:\Ueprojects\SnakeGame\Source\SnakeGame\SneakHead.h
 C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SneakHead.generated.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\Tail.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\DeadZone.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\Overlapable.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Overlapable.generated.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\DeadZone.generated.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Tail.generated.h

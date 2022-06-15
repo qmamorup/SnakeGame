@@ -32,4 +32,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void EatFruit();
+
+private:
+	void MoveUp();
+	void MoveDown();
+	void MoveLeft();
+	void MoveRight();
+	FVector MoveDir;
+	float MoveStepSize;
+	int Score;
+	TArray<class ATail*>Tails;
 };

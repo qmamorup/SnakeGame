@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SnakeGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E90C0020-7D9D-40E2-9032-0EA7EF8D592B}</UniqueIdentifier>
+      <UniqueIdentifier>{FACE114F-F296-4522-B2A0-9A2ED4B2AD5E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SnakeGame.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\SnakeGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C02F1D64-CF02-4F2C-8C27-6AEA3E6A5E5F}</UniqueIdentifier>
+      <UniqueIdentifier>{1CA83B1C-DD43-4B1F-B2FC-2F23F094B80A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +25,36 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\SnakeGame">
-      <UniqueIdentifier>{75D90D56-A7DD-40F9-A3A4-7310F9E1E849}</UniqueIdentifier>
+      <UniqueIdentifier>{0C451814-3FCA-4806-AD5C-F8ED1EFE772B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SnakeGame\Arena.cpp">
+      <Filter>Source\SnakeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SnakeGame\Arena.h">
+      <Filter>Source\SnakeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SnakeGame\DeadZone.cpp">
+      <Filter>Source\SnakeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SnakeGame\DeadZone.h">
+      <Filter>Source\SnakeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SnakeGame\Fruit.cpp">
+      <Filter>Source\SnakeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SnakeGame\Fruit.h">
+      <Filter>Source\SnakeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SnakeGame\Overlapable.cpp">
+      <Filter>Source\SnakeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SnakeGame\Overlapable.h">
+      <Filter>Source\SnakeGame</Filter>
+    </ClInclude>
     <None Include="..\..\Source\SnakeGame\SnakeGame.Build.cs">
       <Filter>Source\SnakeGame</Filter>
     </None>
@@ -45,6 +74,18 @@
       <Filter>Source\SnakeGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SnakeGame\SneakHead.h">
+      <Filter>Source\SnakeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SnakeGame\Tail.cpp">
+      <Filter>Source\SnakeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SnakeGame\Tail.h">
+      <Filter>Source\SnakeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SnakeGame\Wall.cpp">
+      <Filter>Source\SnakeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SnakeGame\Wall.h">
       <Filter>Source\SnakeGame</Filter>
     </ClInclude>
   </ItemGroup>

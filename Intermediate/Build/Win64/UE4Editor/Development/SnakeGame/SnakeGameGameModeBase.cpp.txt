@@ -5,3 +5,24 @@ C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Serve
 C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SnakeGameGameModeBase.generated.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\SneakHead.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\SneakHead.generated.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
+C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\Fruit.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\Overlapable.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Overlapable.generated.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Fruit.generated.h
+C:\Ueprojects\SnakeGame\Source\SnakeGame\Arena.h
+C:\Program Files (x86)\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+C:\Program Files (x86)\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+C:\Ueprojects\SnakeGame\Intermediate\Build\Win64\UE4Editor\Inc\SnakeGame\Arena.generated.h
